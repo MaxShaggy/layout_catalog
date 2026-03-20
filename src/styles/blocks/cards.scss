@@ -1,5 +1,5 @@
 .main {
-  padding-block: 50px;
+  padding: 50px 40px;
 
   &__container {
     max-width: 944px;
@@ -8,7 +8,7 @@
 
 .product-cards {
   display: grid;
-  gap: 48px 46px;
+  gap: 46px 48px;
   grid-template-columns: 1fr;
 
   @media (min-width: $screeSize-S) {
@@ -54,7 +54,7 @@
   }
 
   &__link-title {
-    font-size: 12px;
+    font-size: $fs-M;
     font-weight: 500;
     line-height: 1.5;
     color: $primary-blue;
@@ -70,7 +70,7 @@
   }
 
   &__code {
-    font-size: 10px;
+    font-size: $fs-S;
     line-height: 1.4;
     color: $secondary-gray;
     margin-bottom: 16px;
@@ -84,7 +84,7 @@
   }
 
   &__reviews {
-    font-size: 10px;
+    font-size: $fs-S;
     line-height: 1.4;
     color: $primary-blue;
   }
@@ -96,12 +96,12 @@
   }
 
   &__price-title {
-    font-size: 12px;
+    font-size: $fs-M;
     color: $secondary-gray;
   }
 
   &__price-num {
-    font-size: 16px;
+    font-size: $fs-L;
     font-weight: 700;
     color: $primary-blue;
   }
