@@ -2,12 +2,12 @@
   display: block;
   box-sizing: border-box;
   width: 100%;
-  font-size: 14px;
+  font-size: $fs-L;
   font-weight: 700;
   line-height: 1.6;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: $backgroundColorButton;
   border: 1px solid $brand-color;
   border-radius: 5px;
   background-color: $brand-color;
@@ -17,7 +17,7 @@
     background-color 0.3s ease;
 
   &:hover {
-    background-color: #fff;
+    background-color: $backgroundColorButton;
     color: $brand-color;
   }
 }

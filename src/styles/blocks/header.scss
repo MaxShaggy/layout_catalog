@@ -1,5 +1,5 @@
 .header {
-  box-shadow: 0 2px 4px 0 #0000000d;
+  box-shadow: 0 2px 4px 0 $boxShadow-color;
 
   &__block {
     display: flex;
@@ -24,7 +24,7 @@
   font-weight: 500;
 
   &__item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: $spacing-m;
   }
 
   &__link {
@@ -37,12 +37,12 @@
     transition: color 0.3s ease;
     line-height: 1;
 
-    &--is-active {
+    &.is-active {
       color: $brand-color;
       position: relative;
     }
 
-    &--is-active::after {
+    &.is-active::after {
       content: '';
       position: absolute;
       bottom: 0;
